@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ImageLoader_circular_Example' do
+  pod 'ImageLoader_circular', :path => '../'
+
+  target 'ImageLoader_circular_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
