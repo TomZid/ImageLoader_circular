@@ -1,0 +1,6 @@
+framework module ImageLoader_circular {
+  umbrella header "ImageLoader_circular-umbrella.h"
+
+  export *
+  module * { export * }
+}
