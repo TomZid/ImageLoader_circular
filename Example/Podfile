@@ -3,6 +3,7 @@ use_frameworks!
 target 'ImageLoader_circular_Example' do
   pod 'ImageLoader_circular', :path => '../'
   pod 'SDWebImage', '~> 4.1.0'
+  pod 'ImageLoader_circular'
   target 'ImageLoader_circular_Tests' do
     inherit! :search_paths
 
